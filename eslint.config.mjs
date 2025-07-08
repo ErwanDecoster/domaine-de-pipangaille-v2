@@ -5,4 +5,5 @@ export default withNuxt({
   rules: {
     "import/consistent-type-specifier-style": "off",
   },
+  files: ["**/*.{ts,tsx,vue}"],
 });
